@@ -1,0 +1,66 @@
+/* Basic reset and body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+/* Table styles */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.data {
+    text-align: right;
+}
+
+/* Form styles */
+form {
+    margin: 20px 0;
+}
+
+input {
+    padding: 5px;
+    margin: 5px 0;
+    display: block;
+    width: 200px;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 10px 0;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Links */
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error message */
+.error {
+    color: #ff0000;
+    margin: 10px 0;
+}
